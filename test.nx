@@ -1,0 +1,10 @@
+//
+// test.nx
+//
+// Created by SeanIsTethered on 23.03.25
+//
+ 
+include("io");
+include("TemplateModule");
+
+TemplateModule.print("Meow\n");
