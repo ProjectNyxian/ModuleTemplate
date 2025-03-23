@@ -1,0 +1,18 @@
+//
+// TemplateModule.nxm
+//
+// Created by SeanIsTethered on 23.03.25
+//
+ 
+include("io");
+
+// define some function
+function print(msg)
+{
+	io.write(STDOUT_FILENO, msg, msg.length);
+}
+
+// export the function
+return {
+	print: print
+};
